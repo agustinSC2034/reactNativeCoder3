@@ -1,4 +1,4 @@
-import { Text, View } from "react-native/types";
+import { Text, View } from "react-native";
 
 import React from "react";
 import {styles} from "./styles";
@@ -11,4 +11,4 @@ const Product = () => {
     )
 };
 
-export default Products
+export default Product
