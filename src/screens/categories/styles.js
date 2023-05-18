@@ -1,14 +1,13 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, StatusBar } from "react-native";
 
 export const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#fff'
-    },
-    title: {
-        fontSize: 20,
-        fontFamily: "Inter-Bold",
-    }
-})
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    paddingTop: StatusBar.currentHeight,
+  },
+  title: {
+    fontSize: 20,
+    fontFamily: "Inter-Bold",
+  },
+});
